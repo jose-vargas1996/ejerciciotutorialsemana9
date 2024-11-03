@@ -1,12 +1,12 @@
 # AGREGE MI DATA:
 - Agrege en mi data lo siguiente"
 
-<!-- - info = "==========CALCULADORA==========\n" +
+- info = "==========CALCULADORA==========\n" +
     "{1} Suma\n" +
     "{2} Resta\n" +
     "{3} Multiplicar\n" +
     "{4} Dividir\n" +
-    "{0} Salir\n" -->
+    "{0} Salir\n"
 
 - en mi pagina wed se ve asi:
 
@@ -16,11 +16,11 @@
 
 - Di el valor a mi opcion para cuando el valor sea diferente a "0" se va ha realizar un bucle
 
-<!-- let opcion = 0;
+let opcion = 0;
 
 do {
 
-} while (opcion != 0); -->
+} while (opcion != 0);
 
 # AGREGE MI SWITCH:
 
@@ -28,7 +28,7 @@ do {
 - al escoger una  opcion, el programa debe realizar la operacion correspondiente y mostrar el resultado.
 
 
-    <!-- switch (opcion) {
+    switch (opcion) {
         case 1:
             alert("esta Sumando")
             let num1 = parseInt(prompt("Ingresar primer valor"))
@@ -57,7 +57,7 @@ do {
             let num8 = parseInt(prompt("Ingresar segundo valor"))
             let Dividir = num7 / num8
             alert("la Multiplicacion es" + Dividir)
-            break;  -->
+            break; }
 
 - en mi pagina wed se ve asi:
 
@@ -65,9 +65,9 @@ do {
 
 - colocando una alarma para cuando no escojan una de las opciones salga:
 
-<!-- default:
+        default:
             alert("No existe esa opcion 😭😭😭")
-            break;      -->
+            break;     
 
 - en mi pagina wed se ve asi:            
 
